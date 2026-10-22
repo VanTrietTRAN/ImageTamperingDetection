@@ -1,0 +1,21 @@
+{
+ "casia": {
+  "n": 60,
+  "feature_ms_median": 11.717349999798898,
+  "megapixels_median": 0.098304
+ },
+ "columbia": {
+  "n": 60,
+  "feature_ms_median": 201.42054999996617,
+  "megapixels_median": 0.667332
+ },
+ "imd2020": {
+  "n": 60,
+  "feature_ms_median": 188.04695000062566,
+  "megapixels_median": 0.63828
+ },
+ "cnn_inference_ms": 0.2871505999992223,
+ "cnn_parameters": 146913,
+ "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+ "torch_threads": 6
+}

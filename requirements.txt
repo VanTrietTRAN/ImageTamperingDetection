@@ -1,0 +1,11 @@
+# Python 3.13 (CPU stages)
+numpy
+scipy
+pandas
+scikit-learn
+opencv-python-headless
+pillow
+torch
+matplotlib
+# Python 3.12 environment for GPU stages (frozen ResNet18, PSCC-Net) on AMD/Intel GPUs:
+#   torch-directml torchvision yacs

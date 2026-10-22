@@ -1,0 +1,239 @@
+{
+ "casia_jpeg_only_quantisation_table": {
+  "n": 9501,
+  "n_tampered": 2064,
+  "distinct_signatures": 52,
+  "shared_signatures": 7,
+  "authentic_with_shared_signature": 0.016942315449778138,
+  "tampered_with_shared_signature": 1.0,
+  "rule_accuracy_5fold": 0.9867382380802021,
+  "majority_class_rate": 0.7827597095042627,
+  "most_common": [
+   {
+    "signature": "1179-1778",
+    "authentic": 4088,
+    "tampered": 0
+   },
+   {
+    "signature": "736-1110",
+    "authentic": 1992,
+    "tampered": 0
+   },
+   {
+    "signature": "649-853",
+    "authentic": 74,
+    "tampered": 1869
+   },
+   {
+    "signature": "436-996",
+    "authentic": 614,
+    "tampered": 0
+   },
+   {
+    "signature": "1477-2221",
+    "authentic": 318,
+    "tampered": 0
+   },
+   {
+    "signature": "95-166",
+    "authentic": 36,
+    "tampered": 127
+   }
+  ]
+ },
+ "imd2020_jpeg_only_quantisation_table": {
+  "n": 2227,
+  "n_tampered": 1813,
+  "distinct_signatures": 99,
+  "shared_signatures": 33,
+  "authentic_with_shared_signature": 0.9202898550724637,
+  "tampered_with_shared_signature": 0.9233314947600662,
+  "rule_accuracy_5fold": 0.8343062415806017,
+  "majority_class_rate": 0.814099685675797,
+  "most_common": [
+   {
+    "signature": "736-1110",
+    "authentic": 62,
+    "tampered": 614
+   },
+   {
+    "signature": "1858-2780",
+    "authentic": 93,
+    "tampered": 162
+   },
+   {
+    "signature": "95-166",
+    "authentic": 3,
+    "tampered": 232
+   },
+   {
+    "signature": "649-853",
+    "authentic": 33,
+    "tampered": 120
+   },
+   {
+    "signature": "1477-2221",
+    "authentic": 25,
+    "tampered": 90
+   },
+   {
+    "signature": "2211-3284",
+    "authentic": 26,
+    "tampered": 72
+   }
+  ]
+ },
+ "merged_jpeg_only_quantisation_table": {
+  "n": 11728,
+  "n_tampered": 3877,
+  "distinct_signatures": 117,
+  "shared_signatures": 42,
+  "authentic_with_shared_signature": 0.3877213093873392,
+  "tampered_with_shared_signature": 0.9816868712922363,
+  "rule_accuracy_5fold": 0.897169167803547,
+  "majority_class_rate": 0.6694236016371078,
+  "most_common": [
+   {
+    "signature": "1179-1778",
+    "authentic": 4089,
+    "tampered": 0
+   },
+   {
+    "signature": "736-1110",
+    "authentic": 2054,
+    "tampered": 614
+   },
+   {
+    "signature": "649-853",
+    "authentic": 107,
+    "tampered": 1989
+   },
+   {
+    "signature": "436-996",
+    "authentic": 614,
+    "tampered": 0
+   },
+   {
+    "signature": "1477-2221",
+    "authentic": 343,
+    "tampered": 90
+   },
+   {
+    "signature": "95-166",
+    "authentic": 39,
+    "tampered": 359
+   }
+  ]
+ },
+ "columbia_image_size": {
+  "n": 363,
+  "n_tampered": 180,
+  "distinct_signatures": 7,
+  "shared_signatures": 4,
+  "authentic_with_shared_signature": 0.9836065573770492,
+  "tampered_with_shared_signature": 1.0,
+  "rule_accuracy_5fold": 0.743801652892562,
+  "majority_class_rate": 0.5041322314049587,
+  "most_common": [
+   {
+    "signature": "757x568",
+    "authentic": 27,
+    "tampered": 90
+   },
+   {
+    "signature": "1152x768",
+    "authentic": 81,
+    "tampered": 24
+   },
+   {
+    "signature": "1002x666",
+    "authentic": 36,
+    "tampered": 60
+   },
+   {
+    "signature": "768x1152",
+    "authentic": 36,
+    "tampered": 6
+   },
+   {
+    "signature": "747x625",
+    "authentic": 1,
+    "tampered": 0
+   },
+   {
+    "signature": "914x784",
+    "authentic": 1,
+    "tampered": 0
+   }
+  ]
+ },
+ "casia_image_size": {
+  "n": 12560,
+  "n_tampered": 5123,
+  "distinct_signatures": 474,
+  "shared_signatures": 432,
+  "authentic_with_shared_signature": 0.9981175205055802,
+  "tampered_with_shared_signature": 0.9756002342377513,
+  "rule_accuracy_5fold": 0.6347133757961784,
+  "majority_class_rate": 0.5921178343949045,
+  "most_common": [
+   {
+    "signature": "384x256",
+    "authentic": 4529,
+    "tampered": 2742
+   },
+   {
+    "signature": "256x384",
+    "authentic": 1898,
+    "tampered": 571
+   },
+   {
+    "signature": "800x600",
+    "authentic": 74,
+    "tampered": 143
+   },
+   {
+    "signature": "640x480",
+    "authentic": 14,
+    "tampered": 168
+   },
+   {
+    "signature": "500x375",
+    "authentic": 42,
+    "tampered": 56
+   },
+   {
+    "signature": "600x450",
+    "authentic": 34,
+    "tampered": 61
+   }
+  ]
+ },
+ "merged_container_format": {
+  "n": 15347,
+  "n_tampered": 7313,
+  "distinct_signatures": 3,
+  "shared_signatures": 2,
+  "authentic_with_shared_signature": 1.0,
+  "tampered_with_shared_signature": 0.9730616709968549,
+  "rule_accuracy_5fold": 0.7354531830325145,
+  "majority_class_rate": 0.5234899328859061,
+  "most_common": [
+   {
+    "signature": "JPEG",
+    "authentic": 7851,
+    "tampered": 3877
+   },
+   {
+    "signature": "TIFF",
+    "authentic": 183,
+    "tampered": 3239
+   },
+   {
+    "signature": "PNG",
+    "authentic": 0,
+    "tampered": 197
+   }
+  ]
+ }
+}

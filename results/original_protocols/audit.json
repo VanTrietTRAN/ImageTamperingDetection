@@ -1,0 +1,98 @@
+{
+ "n_images": 15347,
+ "n_tampered": 7313,
+ "container_counts": [
+  {
+   "source": "casia",
+   "label": 0,
+   "container": "JPEG",
+   "n": 7437
+  },
+  {
+   "source": "casia",
+   "label": 1,
+   "container": "JPEG",
+   "n": 2064
+  },
+  {
+   "source": "casia",
+   "label": 1,
+   "container": "TIFF",
+   "n": 3059
+  },
+  {
+   "source": "columbia",
+   "label": 0,
+   "container": "TIFF",
+   "n": 183
+  },
+  {
+   "source": "columbia",
+   "label": 1,
+   "container": "TIFF",
+   "n": 180
+  },
+  {
+   "source": "imd2020",
+   "label": 0,
+   "container": "JPEG",
+   "n": 414
+  },
+  {
+   "source": "imd2020",
+   "label": 1,
+   "container": "JPEG",
+   "n": 1813
+  },
+  {
+   "source": "imd2020",
+   "label": 1,
+   "container": "PNG",
+   "n": 197
+  }
+ ],
+ "per_source_class": {
+  "casia|label=0": {
+   "n_jpeg": 7437,
+   "quality_median": 84.01572668112799,
+   "quality_p10": 84.01572668112799,
+   "quality_p90": 94.08893709327549,
+   "megapixels_median": 0.098304
+  },
+  "casia|label=1": {
+   "n_jpeg": 2064,
+   "quality_median": 91.20119305856834,
+   "quality_p10": 91.20119305856834,
+   "quality_p90": 91.20119305856834,
+   "megapixels_median": 0.098304
+  },
+  "columbia|label=0": {
+   "n_jpeg": 0,
+   "quality_median": null,
+   "quality_p10": null,
+   "quality_p90": null,
+   "megapixels_median": 0.884736
+  },
+  "columbia|label=1": {
+   "n_jpeg": 0,
+   "quality_median": null,
+   "quality_p10": null,
+   "quality_p90": null,
+   "megapixels_median": 0.548654
+  },
+  "imd2020|label=0": {
+   "n_jpeg": 414,
+   "quality_median": 85.1342190889371,
+   "quality_p10": 74.55395878524946,
+   "quality_p90": 94.21095444685466,
+   "megapixels_median": 0.63872
+  },
+  "imd2020|label=1": {
+   "n_jpeg": 1813,
+   "quality_median": 90.02169197396964,
+   "quality_p10": 74.81019522776573,
+   "quality_p90": 98.71203904555314,
+   "megapixels_median": 0.6374985
+  }
+ }
+}

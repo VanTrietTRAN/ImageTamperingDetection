@@ -1,0 +1,21 @@
+{
+ "file": "data/splits.csv",
+ "n": 15347,
+ "columns": [
+  "random_seed0_is_test",
+  "grouped_seed0_fold",
+  "grouped_jpeg_only_seed0_fold",
+  "random_seed1_is_test",
+  "grouped_seed1_fold",
+  "grouped_jpeg_only_seed1_fold",
+  "random_seed2_is_test",
+  "grouped_seed2_fold",
+  "grouped_jpeg_only_seed2_fold",
+  "random_seed3_is_test",
+  "grouped_seed3_fold",
+  "grouped_jpeg_only_seed3_fold",
+  "random_seed4_is_test",
+  "grouped_seed4_fold",
+  "grouped_jpeg_only_seed4_fold"
+ ]
+}
