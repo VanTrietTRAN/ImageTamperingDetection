@@ -63,6 +63,9 @@ python make_revision_report.py                                             # tab
 ```
 PSCC-Net code and weights: https://github.com/proteus1991/PSCC-Net (not redistributed).
 CPU: AMD Ryzen 5 5600H, 16 GB RAM; embeddings and PSCC-Net on an AMD Radeon RX 5500M through DirectML.
+## License
+Code and the derived files in `data/` and `results/` are released under the MIT License (see `LICENSE`).
+The notebooks in `audited_pipeline/`, the dataset images, and PSCC-Net are not covered; see `LICENSE` for details.
 """
 
 
@@ -110,6 +113,7 @@ def main():
             r["path"] = p.split("datasets_forgery/")[-1]
             w.writerow(r)
     (DST / "README.md").write_text(README, encoding="utf-8")
+    shutil.copy(HERE / "LICENSE_release", DST / "LICENSE")
     shutil.make_archive(str(DST), "zip", DST)
     print("written", DST, "and", DST.with_suffix(".zip"))
 

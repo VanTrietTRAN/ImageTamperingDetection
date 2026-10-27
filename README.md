@@ -42,3 +42,7 @@ python make_revision_report.py                                             # tab
 ```
 PSCC-Net code and weights: https://github.com/proteus1991/PSCC-Net (not redistributed).
 CPU: AMD Ryzen 5 5600H, 16 GB RAM; embeddings and PSCC-Net on an AMD Radeon RX 5500M through DirectML.
+
+## License
+Code and the derived files in `data/` and `results/` are released under the MIT License (see `LICENSE`).
+The notebooks in `audited_pipeline/`, the dataset images, and PSCC-Net are not covered; see `LICENSE` for details.
